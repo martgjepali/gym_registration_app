@@ -1,0 +1,47 @@
+{
+  "registered_users": [
+    {
+      "firstName": "Mart",
+      "lastName": "Gjepali",
+      "email": "martgjepali@gmail.com",
+      "mobile": "+355694050097",
+      "weight": 80,
+      "height": 1.75,
+      "bmi": 0.5714285714285714,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requrieTrainer": "No",
+      "package": "Monthly",
+      "important": [
+        "Energy and Endurance",
+        "Building Lean Muscles",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "didGymBefore": "No",
+      "enquiryDate": "2023-05-07T22:00:00.000Z",
+      "id": 1
+    },
+    {
+      "firstName": "Rei",
+      "lastName": "Bengu",
+      "email": "bengurei@gmail.com",
+      "mobile": "+355697978098",
+      "weight": 86,
+      "height": 1.85,
+      "bmi": 0.5405405405405406,
+      "bmiResult": "Underweight",
+      "gender": "Male",
+      "requrieTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Building Lean Muscles",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "didGymBefore": "No",
+      "enquiryDate": "2023-05-02T22:00:00.000Z",
+      "id": 2
+    }
+  ]
+}

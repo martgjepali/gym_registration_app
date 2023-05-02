@@ -1,0 +1,27 @@
+@import './fonts/fonts.scss';
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.hero {
+  min-height: 70vh;
+  background: url("/assets/crossfit.jpg") center center no-repeat;
+  opacity: 0.8;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  font-weight: 400; /* Set the max-width to whatever you need */
+  padding: 0 20px;
+  text-align: center;
+  color: #000000;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-size: 60px;
+  font-family: $vina;
+}
