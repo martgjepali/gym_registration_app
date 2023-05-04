@@ -51,3 +51,8 @@
         </mat-list>
     </mat-card-content>
 </mat-card>
+<ng-container *ngIf="loadSpinner">
+    <div class="overlay">
+        <app-spinner></app-spinner>
+    </div>
+</ng-container>

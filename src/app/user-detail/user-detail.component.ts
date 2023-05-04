@@ -11,6 +11,7 @@ import { User } from '../models/user.model';
 export class UserDetailComponent implements OnInit {
   public userId!: number
   public userData!: User
+  public loadSpinner: boolean = true;
   constructor(
     private activatedRoute: ActivatedRoute,
     private api: ApiService
@@ -26,6 +27,9 @@ export class UserDetailComponent implements OnInit {
     this.api.getRegistereduserId(userId)
     .subscribe({
       next: (res) => {
+        setTimeout(() => {
+          this.loadSpinner = false;
+        }, 1000);
         this.userData = res;
       },
       error: (err) => {
