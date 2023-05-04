@@ -23,9 +23,14 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+import { MatChipsModule } from '@angular/material/chips';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +39,7 @@ import { FooterComponent } from './footer/footer.component';
     RegistrationListComponent,
     UserDetailComponent,
     FooterComponent,
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +63,10 @@ import { FooterComponent } from './footer/footer.component';
     ReactiveFormsModule,
     HttpClientModule,
     MatSortModule,
+    MatProgressSpinnerModule,
+    MatCardModule,
+    MatListModule,
+    MatChipsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -5,13 +5,13 @@
       "lastName": "Gjepali",
       "email": "martgjepali@gmail.com",
       "mobile": "+355694050097",
-      "weight": 80,
+      "weight": 78,
       "height": 1.75,
       "bmi": 0.5714285714285714,
       "bmiResult": "Underweight",
       "gender": "Male",
-      "requrieTrainer": "No",
-      "package": "Monthly",
+      "requireTrainer": "No",
+      "package": "Yearly",
       "important": [
         "Energy and Endurance",
         "Building Lean Muscles",
@@ -32,7 +32,7 @@
       "bmi": 0.5405405405405406,
       "bmiResult": "Underweight",
       "gender": "Male",
-      "requrieTrainer": "Yes",
+      "requireTrainer": "Yes",
       "package": "Monthly",
       "important": [
         "Building Lean Muscles",
@@ -42,6 +42,29 @@
       "didGymBefore": "No",
       "enquiryDate": "2023-05-02T22:00:00.000Z",
       "id": 2
+    },
+    {
+      "firstName": "Ana",
+      "lastName": "Liko",
+      "email": "likoana@gmail.com",
+      "mobile": "2353253264363",
+      "weight": 50,
+      "height": 1.6,
+      "bmi": 0.625,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Yearly",
+      "important": [
+        "Toxic Fat Reduction",
+        "Energy and Endurance",
+        "Building Lean Muscles",
+        "Healthier Digestive System",
+        "Fitness"
+      ],
+      "didGymBefore": "No",
+      "enquiryDate": "2023-05-07T22:00:00.000Z",
+      "id": 3
     }
   ]
 }

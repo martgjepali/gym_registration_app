@@ -25,7 +25,7 @@ export class ApiService {
   }
 
   deleteRegisteredUsers(id: number) {
-    return this.http.delete<User>(`${this.URL}`);
+    return this.http.delete<User>(`${this.URL}/${id}`)
   }
 
   getRegistereduserId(id: number) {
